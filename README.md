@@ -1,10 +1,10 @@
 # Ember-cli-crosstab
 
-This README outlines the details of collaborating on this Ember addon.
+Installing this addon automatically includes crosstab into vendor.js.
 
 ## Installation
 
-* `git clone` this repository
+* `git clone https://github.com/selvaa89/ember-cli-crosstab.git`
 * `npm install`
 * `bower install`
 

@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-crosstab",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Including this addon automatically includes crosstab script into vendor.js",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://github.com/selvaa89/ember-cli-crosstab.git",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "selvaa89",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -44,7 +44,8 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "crosstab": "0.2.12"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
